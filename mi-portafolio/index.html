@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nolberto | Diseño y Desarrollo de Software</title>
+  <!-- Google Fonts: Inter & Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Boxicons para iconografía limpia -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#inicio" class="logo">
+        <span class="logo-icon">N</span>
+        <span class="logo-text">NOLBERTO</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contacto" class="btn btn-primary btn-sm">Contáctame</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+          <i class='bx bx-menu'></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="inicio" class="hero">
+    <div class="container hero-grid">
+      <!-- Columna izquierda -->
+      <div class="hero-content">
+        <div class="badge-available">
+          <span class="dot-green"></span>
+          Disponible para proyectos académicos y prácticas
+        </div>
+
+        <p class="hero-greeting">Hola, soy Nolberto</p>
+        <h1 class="hero-title">Diseño y Desarrollo<br>de Software</h1>
+        <p class="hero-description">
+          Estudiante de Diseño y Desarrollo de Software enfocado en crear soluciones digitales, desarrollar aplicaciones y aprender nuevas tecnologías.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+          <a href="#contacto" class="btn btn-outline">Contáctame</a>
+        </div>
+
+        <div class="hero-stack">
+          <span class="stack-label">STACK TECNOLÓGICO ACTUAL</span>
+          <div class="stack-pills">
+            <span class="pill"><i class='bx bxl-java'></i> Java</span>
+            <span class="pill"><i class='bx bxl-oracle'></i> Oracle DB</span>
+            <span class="pill"><i class='bx bxl-django'></i> Django</span>
+            <span class="pill"><i class='bx bxl-html5'></i> HTML</span>
+            <span class="pill"><i class='bx bxl-css3'></i> CSS</span>
+            <span class="pill"><i class='bx bxl-git'></i> Git</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna derecha: Tarjeta visual de código -->
+      <div class="hero-card">
+        <div class="window-header">
+          <div class="window-dots">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <span class="window-title">Desarrollador.java</span>
+        </div>
+
+        <div class="profile-mini-bar">
+          <div class="mini-avatar">N</div>
+          <div>
+            <h4>Nolberto — Dev Student</h4>
+            <p>Soluciones digitales &amp; desarrollo web</p>
+          </div>
+        </div>
+
+        <div class="code-editor">
+          <pre><code><span class="code-comment">// Enfoque de desarrollo académico</span>
+<span class="code-keyword">public class</span> <span class="code-class">EstudianteDev</span> {
+  <span class="code-keyword">private</span> String nombre = <span class="code-string">"Nolberto"</span>;
+  <span class="code-keyword">private</span> String carrera = <span class="code-string">"Software"</span>;
+
+  <span class="code-keyword">public void</span> <span class="code-method">construir</span>() {
+    <span class="code-comment">// Creando apps funcionales desde cero</span>
+    System.out.println(<span class="code-string">"Listo para colaborar"</span>);
+  }
+}</code></pre>
+        </div>
+
+        <div class="hero-card-meta">
+          <div class="meta-box">
+            <span class="meta-label">ENFOQUE</span>
+            <strong>Full Stack Junior</strong>
+          </div>
+          <div class="meta-box">
+            <span class="meta-label">UBICACIÓN</span>
+            <strong>Lima, Perú</strong>
+          </div>
+        </div>
+
+        <div class="hero-card-footer">
+          <span class="dot-green"></span> Git · GitHub · Linux (Ubuntu)
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mi" class="section bg-white">
+    <div class="container">
+      <div class="section-header-left">
+        <span class="eyebrow"><i class='bx bx-user'></i> PERFIL ACADÉMICO</span>
+        <h2>Sobre mí</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="lead-text">
+            Soy estudiante de <strong>Diseño y Desarrollo de Software</strong> y actualmente desarrollo mis habilidades en programación, bases de datos, desarrollo web y diseño de interfaces.
+          </p>
+          <p>
+            Durante mi formación he trabajado en proyectos académicos utilizando <strong>Java, Oracle, MySQL, Git</strong> y herramientas de desarrollo como <strong>IntelliJ IDEA</strong>.
+          </p>
+          <p>
+            Mi objetivo es unir la solidez de la lógica de programación backend con experiencias visuales limpias, ordenadas e intuitivas para el usuario final.
+          </p>
+
+          <ul class="about-checks">
+            <li><i class='bx bx-check-circle'></i> Pensamiento estructurado y orientado a objetivos</li>
+            <li><i class='bx bx-check-circle'></i> Buenas prácticas de control de versiones con Git</li>
+          </ul>
+        </div>
+
+        <div class="academic-card">
+          <div class="academic-card-top">
+            <span class="eyebrow-sm">PERFIL ACADÉMICO</span>
+            <i class='bx bxs-graduation graduation-bg'></i>
+          </div>
+
+          <div class="academic-item">
+            <span class="meta-label">ROL ACTUAL</span>
+            <h3>Estudiante</h3>
+          </div>
+
+          <div class="academic-item">
+            <span class="meta-label">CARRERA</span>
+            <p class="career-title">Diseño y Desarrollo de Software</p>
+          </div>
+
+          <div class="academic-row">
+            <div>
+              <span class="meta-label">AÑO DE FORMACIÓN</span>
+              <span class="year-highlight">2026</span>
+            </div>
+            <div>
+              <span class="meta-label">UBICACIÓN</span>
+              <strong>Lima, Perú</strong>
+            </div>
+          </div>
+
+          <div class="academic-footer">
+            <span><i class='bx bx-shield-quarter'></i> Portafolio en progreso</span>
+            <span>Ed. 2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MIS HABILIDADES -->
+  <section id="habilidades" class="section bg-light">
+    <div class="container">
+      <div class="section-header-center">
+        <span class="eyebrow"><i class='bx bx-code-alt'></i> HERRAMIENTAS &amp; TECNOLOGÍAS</span>
+        <h2>Mis habilidades</h2>
+        <p>Tecnologías y herramientas que utilizo actualmente en mi aprendizaje y desarrollo de proyectos.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon"><i class='bx bxl-java'></i></div>
+          <h4>Java</h4>
+          <span>Backend &amp; POO</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class='bx bx-data'></i></div>
+          <h4>Oracle</h4>
+          <span>Gestión de datos</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class='bx bx-table'></i></div>
+          <h4>SQL</h4>
+          <span>Consultas &amp; tablas</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class='bx bxs-data'></i></div>
+          <h4>MySQL</h4>
+          <span>Bases de datos relacionales</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class='bx bxl-html5'></i></div>
+          <h4>HTML</h4>
+          <span>Estructura semántica</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class='bx bxl-css3'></i></div>
+          <h4>CSS</h4>
+          <span>Diseño adaptable</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class='bx bxl-javascript'></i></div>
+          <h4>JavaScript</h4>
+          <span>Interactividad web</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class='bx bxl-git'></i></div>
+          <h4>Git</h4>
+          <span>Control de versiones</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class='bx bxl-github'></i></div>
+          <h4>GitHub</h4>
+          <span>Trabajo colaborativo</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class='bx bxl-tux'></i></div>
+          <h4>Ubuntu</h4>
+          <span>Entorno Linux</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class='bx bx-terminal'></i></div>
+          <h4>IntelliJ IDEA</h4>
+          <span>IDE principal</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class='bx bx-layout'></i></div>
+          <h4>Diseño UI</h4>
+          <span>Interfaces limpias</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="section bg-white">
+    <div class="container">
+      <div class="projects-top-bar">
+        <div>
+          <span class="eyebrow"><i class='bx bx-folder-open'></i> PORTAFOLIO PRÁCTICO</span>
+          <h2>Proyectos</h2>
+          <p>Proyectos académicos y personales desarrollados durante mi estudio.</p>
+        </div>
+
+        <div class="filter-buttons" id="filterButtons">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="java">Java</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="db">Bases de datos</button>
+        </div>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Proyecto 1 -->
+        <article class="project-card" data-category="java db">
+          <div class="project-banner">
+            <div class="banner-top">
+              <span>PROYECTO JAVA + ORACLE</span>
+              <span>GESTIÓN DE DATOS</span>
+            </div>
+            <div class="banner-center">
+              <div class="banner-icon"><i class='bx bx-server'></i></div>
+              <p>Módulo de Altas y Bajas</p>
+              <small>Conexión JDBC y lógica de negocio</small>
+            </div>
+          </div>
+
+          <div class="project-body">
+            <h3>Sistema de gestión para tienda</h3>
+            <p>Aplicación académica orientada a gestionar productos, clientes y ventas utilizando Java y Oracle.</p>
+            <div class="project-tags">
+              <span>Java</span>
+              <span>Oracle</span>
+              <span>SQL</span>
+              <span>JDBC</span>
+            </div>
+            <div class="project-footer">
+              <span class="project-type">PROYECTO ACADÉMICO</span>
+              <a href="#contacto" class="project-link">Ver proyecto <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 2 -->
+        <article class="project-card" data-category="web db">
+          <div class="project-banner">
+            <div class="banner-top">
+              <span>PROYECTO WEB FULLSTACK</span>
+              <span>MÓDULO DE ADOPCIÓN</span>
+            </div>
+            <div class="banner-center">
+              <div class="banner-icon"><i class='bx bx-globe'></i></div>
+              <p>Mascotas y Formularios de Adopción</p>
+              <small>Panel de registro y catálogo</small>
+            </div>
+            <span class="banner-badge">HTML / CSS / JS</span>
+          </div>
+
+          <div class="project-body">
+            <h3>CambiaYa</h3>
+            <p>Sistema para gestionar el flujo de adopción de mascotas, ofreciendo perfiles, equipos y seguimiento.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>Django</span>
+              <span>CSS</span>
+              <span>MySQL</span>
+            </div>
+            <div class="project-footer">
+              <span class="project-type">PROYECTO ACADÉMICO</span>
+              <a href="#contacto" class="project-link">Ver proyecto <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 3 -->
+        <article class="project-card" data-category="web">
+          <div class="project-banner">
+            <div class="banner-top">
+              <span>CONTROL DE VERSIONES</span>
+              <span>FLUJO DE TRABAJO</span>
+            </div>
+            <div class="banner-center">
+              <div class="banner-icon"><i class='bx bx-git-branch'></i></div>
+              <p>Ejercicios de Git y Repositorios</p>
+              <small>Comandos esenciales y ramas</small>
+            </div>
+            <span class="banner-badge">GIT / GITHUB</span>
+          </div>
+
+          <div class="project-body">
+            <h3>Laboratorio Git</h3>
+            <p>Proyecto académico para practicar control de versiones, ramas, commits y trabajo colaborativo con Git y GitHub.</p>
+            <div class="project-tags">
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>Ubuntu</span>
+              <span>CLI</span>
+            </div>
+            <div class="project-footer">
+              <span class="project-type">PRÁCTICA DE REPOSITORIO</span>
+              <a href="#contacto" class="project-link">Ver proyecto <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- MI PROCESO -->
+  <section id="proceso" class="section bg-light">
+    <div class="container">
+      <div class="section-header-center">
+        <span class="eyebrow"><i class='bx bx-cog'></i> METODOLOGÍA DE TRABAJO</span>
+        <h2>Mi proceso</h2>
+        <p>Así es como desarrollo el software aplicando un enfoque estructurado para construir soluciones de calidad.</p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-card">
+          <div class="process-top">
+            <span class="step-num">01</span>
+            <div class="step-icon"><i class='bx bx-bulb'></i></div>
+          </div>
+          <h4>Idea</h4>
+          <p>Comprensión del problema, análisis de requerimientos del usuario y definición del alcance técnico de la solución.</p>
+        </div>
+
+        <div class="process-card">
+          <div class="process-top">
+            <span class="step-num">02</span>
+            <div class="step-icon"><i class='bx bx-pen'></i></div>
+          </div>
+          <h4>Diseño</h4>
+          <p>Estructuración de diagramas UML, modelado de bases de datos relacionales y wireframes de interfaz limpia.</p>
+        </div>
+
+        <div class="process-card">
+          <div class="process-top">
+            <span class="step-num">03</span>
+            <div class="step-icon"><i class='bx bx-code-curly'></i></div>
+          </div>
+          <h4>Desarrollo</h4>
+          <p>Implementación de código limpio bajo patrones POO, persistencia sólida y control de versiones continuo.</p>
+        </div>
+
+        <div class="process-card">
+          <div class="process-top">
+            <span class="step-num">04</span>
+            <div class="step-icon"><i class='bx bx-check-shield'></i></div>
+          </div>
+          <h4>Pruebas</h4>
+          <p>Verificación de casos de uso, validación de integridad en bases de datos y depuración exhaustiva de errores.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="section bg-white">
+    <div class="container">
+      <div class="section-header-center">
+        <span class="eyebrow"><i class='bx bx-message-square-dots'></i> ESPACIO PREPARADO</span>
+        <h2>Lo que dicen sobre mi trabajo</h2>
+        <p>Espacios diseñados para incorporar recomendaciones académicas, docentes y de compañeros al concluir cada proyecto.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <span class="testi-tag"><i class='bx bx-book-reader'></i> FEEDBACK ACADÉMICO</span>
+          <h4>Testimonio académico</h4>
+          <p>"Espacio reservado para la retroalimentación y recomendaciones de docentes y asesores del programa sobre desempeño y cumplimiento de entregables."</p>
+          <div class="testi-author">
+            <div class="author-avatar"><i class='bx bx-user'></i></div>
+            <div>
+              <strong>Docente / Asesor</strong>
+              <span>Facultad de Informática</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <span class="testi-tag"><i class='bx bx-group'></i> TRABAJO EN EQUIPO</span>
+          <h4>Testimonio de compañero</h4>
+          <p>"Espacio reservado para comentarios de compañeros de equipo sobre trabajo colaborativo, resolución de conflictos y comunicación en Git."</p>
+          <div class="testi-author">
+            <div class="author-avatar"><i class='bx bx-user'></i></div>
+            <div>
+              <strong>Compañero de equipo</strong>
+              <span>Desarrollo Colaborativo</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <span class="testi-tag"><i class='bx bx-briefcase'></i> EVALUACIÓN TÉCNICA</span>
+          <h4>Testimonio de proyecto</h4>
+          <p>"Espacio reservado para reseñas directas sobre el resultado final de las soluciones técnicas, usabilidad y cumplimiento de alcance."</p>
+          <div class="testi-author">
+            <div class="author-avatar"><i class='bx bx-user'></i></div>
+            <div>
+              <strong>Evaluador de proyecto</strong>
+              <span>Revisión de Software</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section bg-light">
+    <div class="container contact-grid">
+      <!-- Información de contacto -->
+      <div class="contact-info">
+        <span class="eyebrow"><i class='bx bx-envelope'></i> CONTACTO DIRECTO</span>
+        <h2>Hablemos</h2>
+        <p class="contact-desc">¿Tienes una idea, proyecto o propuesta? Puedes escribirme mediante el siguiente formulario.</p>
+
+        <div class="contact-cards">
+          <a href="mailto:contacto.nolberto@estudiante.edu.pe" class="info-item">
+            <div class="info-icon"><i class='bx bx-envelope'></i></div>
+            <div>
+              <span class="meta-label">EMAIL</span>
+              <strong>contacto.nolberto@estudiante.edu.pe</strong>
+            </div>
+          </a>
+
+          <a href="https://github.com" target="_blank" rel="noopener" class="info-item">
+            <div class="info-icon"><i class='bx bxl-github'></i></div>
+            <div>
+              <span class="meta-label">GITHUB</span>
+              <strong>github.com/nolberto-dev</strong>
+            </div>
+          </a>
+
+          <a href="https://linkedin.com" target="_blank" rel="noopener" class="info-item">
+            <div class="info-icon"><i class='bx bxl-linkedin'></i></div>
+            <div>
+              <span class="meta-label">LINKEDIN</span>
+              <strong>linkedin.com/in/nolberto-dev</strong>
+            </div>
+          </a>
+
+          <div class="info-item">
+            <div class="info-icon"><i class='bx bx-map'></i></div>
+            <div>
+              <span class="meta-label">UBICACIÓN</span>
+              <strong>Lima, Perú</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Formulario -->
+      <div class="contact-form-wrapper">
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="nombre">Nombre <span>*</span></label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Correo electrónico <span>*</span></label>
+            <input type="email" id="email" name="email" placeholder="nombre@ejemplo.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="asunto">Asunto <span>*</span></label>
+            <input type="text" id="asunto" name="asunto" placeholder="Ej. Propuesta de proyecto / Consulta académica" required>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Mensaje <span>*</span></label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntame sobre tu proyecto o consulta..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">
+            Enviar mensaje <i class='bx bx-send'></i>
+          </button>
+
+          <p id="formFeedback" class="form-feedback" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#inicio" class="logo">
+            <span class="logo-icon">N</span>
+            <span class="logo-text">NOLBERTO</span>
+          </a>
+          <p>Diseño y Desarrollo de Software</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#inicio">Inicio</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+          <a href="mailto:contacto.nolberto@estudiante.edu.pe" aria-label="Correo"><i class='bx bx-envelope'></i></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 NOLBERTO. TODOS LOS DERECHOS RESERVADOS.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
